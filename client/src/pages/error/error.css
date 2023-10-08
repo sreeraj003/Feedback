@@ -1,0 +1,5 @@
+.errImage {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;  /* Ensures the image covers the entire container */
+  }

@@ -1,0 +1,57 @@
+.feedback-form {
+  max-width: 100vh;
+  padding: 50px;
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  margin-top: 5%;
+  text-align: center;
+}
+.slider {
+  width: 50%;
+}
+.errMsg{
+  background-color: rgb(255, 224, 224)!important;
+}
+.msg,.errMsg {
+  z-index: 1;
+  background-color: rgb(199, 255, 215);
+  border-bottom: 10px;
+  border-style: solid;
+  position: fixed;
+  right: 5%;
+  margin-top: 5%;
+  animation: slideFromRight 0.5s forwards;
+  border-radius: 10px;
+}
+@keyframes slideFromRight {
+  from {
+    right: 0%; /* Start position: outside the screen on the right */
+  }
+  to {
+    right: 5%; /* End position: 5% from the right */
+  }
+}
+
+
+.slider-steps {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.slider-steps span {
+  position: absolute;
+  transform: translateX(-50%);
+}
+.cal {
+  width: 200px;
+}
+
+.overall:hover{
+border-width: 1px;
+margin-left: 2px;
+border-style:solid ;
+border-color: aliceblue;
+}
